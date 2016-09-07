@@ -1,0 +1,89 @@
+/*
+Theme Name:   	Storefront Child Theme
+Theme URI:    	https://github.com/stuartduff/storefront-child-theme
+Author:       	Stuart Duff
+Author URI:     http://stuartduff.com
+Template:     	storefront
+Description:  	This is a blank child theme for WooThemes StoreFront theme
+Version:      	1.0.0
+License:      	GNU General Public License v2 or later
+License URI:  	http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:  	storefront
+Tags:         	black, white, light, two-columns, left-sidebar, right-sidebar, responsive-layout, custom-background, custom-colors, custom-header, custom-menu, featured-images, full-width-template, threaded-comments, accessibility-ready
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+Storefront is based on Underscores http://underscores.me/, (C) 2012-2014 Automattic, Inc.
+Resetting and rebuilding styles have been helped along thanks to the fine work of
+Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
+along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+FontAwesome License: SIL Open Font License - http://scripts.sil.org/OFL
+Images License: GNU General Public License v2 or later
+*/
+/*
+ * Add your own custom css below this text.
+ */
+
+ .main-navigation ul li a:hover,
+ .main-navigation ul li:hover > a,
+ .site-title a:hover,
+ a.cart-contents:hover,
+ .site-header-cart .widget_shopping_cart a:hover,
+ .site-header-cart:hover > li > a,
+ .site-header ul.menu li.current-menu-item > a {
+    color: #7D7878;
+}
+.secondary-navigation ul.menu a {
+    color: #02060C;
+}
+
+
+ .site-branding h1 a {
+    color: red;
+ }
+
+ .site-header,
+ .secondary-navigation ul ul,
+ .main-navigation ul.menu > li.menu-item-has-children::after,
+ .secondary-navigation ul.menu ul,
+ .storefront-handheld-footer-bar,
+ .storefront-handheld-footer-bar ul li > a,
+ .storefront-handheld-footer-bar ul li.search .site-search,
+ button.menu-toggle,
+ button.menu-toggle:hover {
+    background-color: #fdf7df;
+}
+
+.main-navigation ul li a,
+.site-title a, ul.menu li a,
+.site-branding h1 a,
+.site-footer .storefront-handheld-footer-bar a:not(.button),
+button.menu-toggle,
+button.menu-toggle:hover {
+    color: #55595C;
+}
+
+
+.hentry.type-post .entry-meta {
+    font-size: 0.875em;
+    margin-right: 5.88235%;
+    width: 100%;
+    text-align: center;
+}
+
+.e-meta {
+  
+}
+
+.author, .cat-links, .comments-link, .tags-links {
+    display: inline-block;
+    margin-bottom: 1.618em;
+}
+
+
+
+
+.hentry.type-post .entry-content {
+    width: 70%;
+    margin: 0 15% 15% 0;
+
+}
